@@ -18,6 +18,7 @@ Dự án được xây dựng phục vụ bài tập lớn môn **An ninh mạng
 ## 2. Tính năng chính
 
 1. **Server relay** (không giải mã nội dung):
+
    - Nhận kết nối từ nhiều client
    - Lưu public key DH của từng user
    - Cấp public key peer theo yêu cầu
@@ -25,6 +26,7 @@ Dự án được xây dựng phục vụ bài tập lớn môn **An ninh mạng
    - Không bao giờ thấy bản rõ (plaintext)
 
 2. **Client chat bảo mật**:
+
    - Sinh cặp khóa Diffie–Hellman
    - Trao đổi public key qua server → tạo **shared key** 32 bytes
    - Dùng **AES-GCM** để mã hóa/giải mã tin nhắn
@@ -72,3 +74,5 @@ DH-SecureChat/
     ├── test_dh.py        # Kiểm thử shared key = nhau
     └── test_aes.py       # Kiểm thử AES-GCM round-trip
 ```
+
+áa
