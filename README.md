@@ -74,5 +74,3 @@ DH-SecureChat/
     ├── test_dh.py        # Kiểm thử shared key = nhau
     └── test_aes.py       # Kiểm thử AES-GCM round-trip
 ```
-
-áa
